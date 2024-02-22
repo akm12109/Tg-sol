@@ -1,0 +1,5 @@
+const [videoCall, setVideoCall] = useState(true);
+
+const rtcProps = {
+    appId: "<Agora App ID>",
+    channel: "<Channel Name>",
